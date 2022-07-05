@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/bg_texture.png');
+}
+main {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #0067dc;
+    z-index: 100;
+}
+
+.area-logo {
+    left: 10%;
+    float: left;
+    
+}
+
+.area-logo img {/*especificidade para não alterar as outras imagens na página*/
+    height: 70px;
+    margin-left: 70px;
+}
+
+.menu {
+    
+    float: right;
+    right: 30%;
+    margin-right: 200px;
+    
+}
+
+.menu nav {
+    
+    margin-top: 3%;
+}
+
+/* li */
+/* ul li */
+/* .menu nav ul li { */
+/* .menu nav li { */
+.item {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.menu nav li:hover {
+    color: black;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.banner {
+    background-position: center 70px;
+    background-size: 600px;
+    height: 600px;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+
+}
+
+section {
+
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.history .texto {
+    padding: 25px;
+    text-align: justify;
+}
+
+.history .texto img {
+    float: right;
+    padding: 20px;
+    width: 150px;
+}
+
+.games {
+    background-image: url('../img/background.jpeg');
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 850px;
+    padding: 20px;
+}
+
+.games .titulo {
+    color: #0067dc;
+    padding: 30px;
+}
+
+.games-texto {
+    width: 930px;
+    position: relative;
+}
+
+.games .texto1, .games .texto2, .games .texto3, .games .texto4 {
+    
+    color: black;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+
+}
+
+.games .texto1 {
+    right: 0px;
+    margin-right: 0px;
+}
+
+.games .texto2 {
+    top:130px;
+    left: 0px;
+}
+
+.games .texto3 {
+    top:280px;
+    right: 0px;
+}
+
+.games .texto4 {
+    top: 420px;
+    left: 0px;
+}
+
+
+.texto1 img, .texto2 img, .texto4 img {
+    width: 50%;
+
+}
+
+.texto3 img {
+    width: 35%;
+}
+
+footer {
+    height: 380px;
+    width: 100%;
+    background-image: url('../img/footer.jpg');
+    background-repeat: no-repeat;
+}
